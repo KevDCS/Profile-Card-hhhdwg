@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap');
 
 body {
-  background: #64b5f6;
   text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+* {
+  text-decoration: none;
 }
 
 .card {
   height: 400px;
   width: 300px;
-  background: #fff;
+  background: #333480;
   font-family: 'Nunito', 'Font Awesome 5 Brands', 'Font Awesome 5 Free',
     sans-serif;
   display: block;
@@ -32,10 +37,10 @@ body {
   background-image: url('https://pbs.twimg.com/profile_images/1479199712427360269/5MrijENI_400x400.jpg');
   height: 150px;
   width: 150px;
-  margin: 5px 0 5px 0;
+  margin: 30px 0 5px 0;
   background-size: cover;
   border-radius: 50%;
-  box-shadow: 0px 15px 20px 5px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 0px 15px 20px 5px rgba(0, 0, 0, 0.5); */
 }
 
 .name_title {
@@ -51,7 +56,7 @@ body {
   margin: 0;
   padding: 20px 0 20px 0;
   font-weight: bold;
-  color: yellowgreen;
+  color: #1bf7f7;
 }
 
 .name_title span {
@@ -59,15 +64,14 @@ body {
   font-weight: 600;
   letter-spacing: 0;
   padding: 0 0 20px 0;
+  color: #21a6ce;
 }
 
 .social_icons {
   display: flex;
   justify-content: space-evenly;
   align-content: center;
-  height: 30px;
-  width: auto;
-  padding: 10px 10px;
+  padding: 0px 10px;
   margin: 10px;
 }
 
@@ -76,4 +80,20 @@ body {
   align-items: center;
   justify-content: center;
   padding: 0 10px 0 10px;
+  font-style: normal;
+  font-size: 30px;
+  cursor: pointer;
+  color: #000;
+}
+
+.fa-twitter-square:hover {
+  color: #00acee;
+}
+
+.fa-linkedin:hover {
+  color: #0e76a8;
+}
+
+.fa-github:hover {
+  color: #4078c0;
 }
